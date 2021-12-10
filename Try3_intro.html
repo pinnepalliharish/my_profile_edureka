@@ -1,47 +1,9 @@
 <html>
     <head>
         <link href="images/favicon.ico" rel="icon">
-        <style>
-            body{
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-            #head{
-                
-                text-align: center ;
-                height: 20px;
-                width: 100%;
-                background-color: black;    
-            }
-            #head a{
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: medium;
-                border: 5px;
-                color: white;
-                margin-left: 35px;
-                text-decoration: none;
-            }
-            #about_me{
-                margin-bottom: 0;
-                height: 470px;
-                background-color: white;
-            }
-            #skills{
-                height: 410px;
-                margin-top:0;
-                background-color: black;
-            }
-            
-            
-            /* #footer{
-                position: absolute;
-                height: 70px;
-                width: 100%;
-                background-color: black;
-                text-align: center;
-
-            } */
-        </style>
+        <link href="try3_intro.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -65,9 +27,9 @@
                 </p>
                 <br>
                 <center>
-                <a href="https://www.instagram.com/harish._.pinnepalli/" target="_blank"> <img src="images/insta.jpg" height="20px" alt="instagram" ></a>
-                <a href="https://www.linkedin.com/in/p-harish-652781225/" target="_blank"><img src="images/linkdin.png" height="20px" alt="Linkedin"></a>
-                <a href="https://www.hackerrank.com/pbharish026" target="_blank" ><img src="images/hacker rank.jpg" height="20px" alt="Linkedin"></a>
+                    <a href="https://www.instagram.com/harish._.pinnepalli/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.linkedin.com/in/p-harish-652781225/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.hackerrank.com/pbharish026" target="_blank" ><i class="fab fa-hackerrank"></i></a>
               </center>
             </section>
         </div>
@@ -77,20 +39,20 @@
                 <br>
                 <center>
                     <h2 style="margin-top: 0px; color:white; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ">SKILLS :</h2>
-                    <img src="images/python.png"  height="100px" width="100px" style="border-radius:50% ;" alt="pyhton_image">
-                    <img src="images/c_language.png"  height="110px" width="100px" style="border-radius:50% ;" alt="c">
-                    <img src="images/html logo.png" height="100px" width="100px" style="border-radius: 50%;" alt="html logo">
-                    <img src="images/css1 logo.jpg" height="100px" width="100px" style="border-radius: 50%;" alt="css logo">
-                </center>
+                    <i class="fab fa-python"></i>
+                    <i class="fab fa-cuttlefish"></i>
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3"></i>               
+                 </center>
                 <br>
                 <hr style=" border: 1px dashed white; width:40% ;">
                 <br>
                 <center>
                     <h2 style=" margin-top: 0; color: whitesmoke; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">HOBBIES</h2>
-                    <img src="images/listening_music.jpg" height="100px"  style="margin-right: 10px;" alt="listening_music">
-                    <img src="images/playing_cricket.png" height="100px" style="margin-right: 10px;" alt="playing_cricket">
-                    <img src="images/programming.jpg" height="100px" style="margin-right: 10px;" alt="coding">
-
+                    <i class="fas fa-music"></i>
+                    <img src="images/playing_cricket.jpg" height="110px" style="margin-right: 55px; margin-top: 10px;" alt="playing_cricket">
+                    <i class="fas fa-laptop-code"></i>
+                    <i class="fas fa-camera-retro"></i>
                 </center> 
             </section>
         </div>
@@ -109,23 +71,26 @@
                     </div>
 
                     <div style="height: 540px; width: 70%; background-color: whitesmoke;  float: left;">
-                        <form action="https://www.google.co.in/" style="margin-left: 300px; margin-top: 70px; ">
+                        <form action="https://www.google.co.in/" style="margin-left: 300px; margin-top: 50px; ">
                             <b>First Name</b>    : <input type="text" placeholder="Enter your First name" style="margin-right:20px ;"/> 
                             <b>Second Name</b>   : <input type="text" placeholder="Enter your Second name"/> <br><br>
                             <b>Age</b>     : <input type="number" placeholder="Enter your Age"/><br><br>
                             <b>Email</b>   : <input type="email" placeholder="Enter your Email id"/><br><br>
                             <b>country</b> : 
-                                <input list="countries" name="country" required placeholder="Select ur country" >
-                                <datalist id="countries">
-                                    <option >  INDIA  </option>
-                                    <option > MALASIA  </option>
-                                    <OPTIon> PAKISTAN  </OPTIon>
-                                </datalist> <br><br>
+                                <input list="countries"   placeholder="Select ur country" >
+                                    <datalist>
+                                        <option >  INDIA  </option>
+                                        <option > AUSTRALIA  </option>
+                                        <OPTIon> SINGAPORE  </OPTIon>
+                                        <option > RUSSIA  </option>
+                                        <option > U.S.A  </option>
+                                    </datalist> 
+                                <br><br>
                             <b>Drop your queries : </b> <br> <br>
                                 <textarea cols="30" rows="10" value="Message" style="margin: 0px; width: 281px; height: 139px;"> </textarea> <br><br>
                             <input type="submit" style="margin-left: 225px;">
                         </form>
-                        <br><br>
+                        <br><br><br>
                         <span style="margin-left: 300px; margin-right: 20px;" >Mobile : 1234567890</span> 
                         <span >Email: pbharish026@gmail.com</span>
                     </div>
@@ -135,7 +100,7 @@
         <div style="background-color: black; height: 80px; width: 100%;  ">
             
             <h2 style="color: white; margin-left: 670px; margin-top:15px; ">&copy; P.HARISH</h2>
-            <a href="C:\Users\pbhar\OneDrive\Desktop\programming\web_development\My_profile_edureka\Try3_intro.html" style="color: aliceblue; margin-left: 710px;"> Go To Top</a>
+            <a href="D:\programming\web_development\My_profile_edureka\Try3_intro.html" style="color: aliceblue; margin-left: 710px;"> Go To Top</a>
 
         
         </div>
